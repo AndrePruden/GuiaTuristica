@@ -4,8 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/styleContact.css">
 </head>
 <body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-container">
+                <img src="/img/logo.png" alt="Logo" class="logo">
+            </div>
+        </div>
+        
+        <nav class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-container">
+            <a href="#" class="social-icon"><img src="/img/facebook.png" alt="Logo" class="logo"></a>
+            <a href="#" class="social-icon"><img src="/img/twitter.png" alt="Logo" class="logo"></a>
+            <a href="#" class="social-icon"><img src="/img/instagram.png" alt="Logo" class="logo"></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2 class="contact-title">Contáctanos</h2>
+                <p class="contact-description">
+                    ¿Tienes preguntas sobre admisiones, itinerarios turísticos o cualquier otra cosa? Puedes visitarnos durante el horario de oficina, llamarnos o simplemente enviar el formulario aquí.
+                </p>
+                <div class="contact-boxes">
+                    <div class="contact-info">
+                        <h3>Dirección</h3>
+                        <p>1234 Demo Ave, Austin, TX 56789, Alemania.</p>
+                        <hr>
+                        <h3>Teléfono</h3>
+                        <p>+49 123-456-7890</p>
+                        <hr>
+                        <h3>Email</h3>
+                        <p>mail@example.com</p>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Formulario de Contacto</h3>
+                        <form>
+                            <label for="full-name">Nombre Completo</label>
+                            <input type="text" id="full-name" placeholder="Tu nombre completo" required>
+                            
+                            <label for="email">Dirección de Email</label>
+                            <input type="email" id="email" placeholder="Tu email" required>
+                            
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" placeholder="El asunto" required>
+                            
+                            <label for="message">Tu Mensaje</label>
+                            <textarea id="message" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
+                            
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <h3>Guía Alemana</h3>
+                <p>1234 Demo Ave, Austin, TX 56789, Germany.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Main Office</h3>
+                <p>+49 123-456-7890<br>8:00 a.m. – 4:00 p.m.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Attendance</h3>
+                <p>+49 123-456-7890<br>mail@example.com</p>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="logo-container">
+                <img src="/img/logo.png" alt="Logo" class="logo">
+            </div>
+            
+            <nav class="nav-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
     
+            <div class="social-container">
+                <a href="#" class="social-icon"><img src="/img/facebook.png" alt="Facebook" class="logo"></a>
+                <a href="#" class="social-icon"><img src="/img/twitter.png" alt="Twitter" class="logo"></a>
+                <a href="#" class="social-icon"><img src="/img/instagram.png" alt="Instagram" class="logo"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">Copyright © 2024 School | Powered by Pruden</div>
+        </div>
+    </footer>
 </body>
 </html>
