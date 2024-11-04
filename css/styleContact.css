@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
-    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    overflow-x: hidden; 
 }
 
 *,
@@ -27,9 +27,9 @@ header {
 }
 
 .logo-container img {
-    width: 100%; /* Cambia a 100% para adaptarse mejor */
-    max-width: 126px; /* Mantiene un tamaño máximo */
-    height: auto; /* Mantiene la proporción */
+    width: 100%;
+    max-width: 126px; 
+    height: auto; 
 }
 
 .nav-container {
@@ -41,7 +41,7 @@ header {
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 15px; /* Reduce el espacio entre los elementos */
+    gap: 15px; 
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@ header {
 
 .social-container {
     display: flex;
-    gap: 10px; /* Reduce el espacio */
+    gap: 10px; 
     align-items: center;
 }
 
@@ -75,11 +75,11 @@ header {
 
 .contact-section {
     background-color: #f0f0f0; 
-    padding: 40px 10px; /* Ajusta el padding */
+    padding: 40px 10px; 
 }
 
 .contact-container {
-    width: 100%; /* Cambia a 100% para evitar problemas de ancho */
+    width: 100%; 
     max-width: 900px; 
     margin: 0 auto;
     background-color: #fff; 
@@ -104,15 +104,15 @@ header {
 
 .contact-boxes {
     display: flex;
-    flex-wrap: wrap; /* Permite que el contenido se ajuste en pantallas más pequeñas */
+    flex-wrap: wrap; 
     justify-content: space-between;
 }
 
 .contact-info,
 .contact-form {
     flex: 1;
-    min-width: 250px; /* Asegura un mínimo de ancho */
-    margin: 10px; /* Asegura un margen uniforme */
+    min-width: 250px; 
+    margin: 10px; 
 }
 
 .contact-info h3,
@@ -163,23 +163,23 @@ hr {
 }
 
 footer {
-    padding: 40px 10px; /* Ajusta el padding */
+    padding: 40px 10px; 
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Cambia a 100% para evitar problemas de ancho */
+    width: 100%; 
     max-width: 912px;
     margin: 0 auto;
-    flex-wrap: wrap; /* Permite que el contenido se ajuste en pantallas más pequeñas */
+    flex-wrap: wrap; 
 }
 
 .footer-box {
     flex: 1;
     padding: 10px;
-    min-width: 200px; /* Asegura un mínimo de ancho */
+    min-width: 200px; 
 }
 
 .footer-box h3 {
@@ -200,11 +200,11 @@ footer {
 /* Media Queries */
 @media (max-width: 768px) {
     .contact-boxes {
-        flex-direction: column; /* Cambia la dirección de la flexbox a columna en pantallas pequeñas */
+        flex-direction: column; 
     }
     
     .contact-info,
     .contact-form {
-        margin: 10px 0; /* Margen en la dirección vertical */
+        margin: 10px 0;
     }
 }
